@@ -153,7 +153,7 @@ function debounce(func, delay) {
 const debouncedScrollHandler = debounce(handleNavigationOnScroll, 20);
 const debouncedResizeHandler = debounce(handleResizeHandler, 20);
 
-let screenWidth;
+let screenWidth = innerWidth;
 function handleResizeHandler() {
     screenWidth = innerWidth;
 }
