@@ -57,6 +57,10 @@ body {
     background: radial-gradient(600px at 0px 0px, rgba(29, 78, 216, 0.15), transparent 80%);
 }
 
+.fixed-left-layout {
+    margin-top: 40px;
+}
+
 .mobile-section-header {
     font-size: var(--text-lg);
     font-weight: var(--font-weight-medium);
@@ -247,15 +251,6 @@ body {
     }
 }
 
-@media screen and (min-width: 425px) {
-    :root {
-        --text-rg: 0.875rem;
-        --text-md: 1rem;
-        --text-lg: 1.125rem;
-        --text-name: 2rem;
-    }
-}
-
 @media screen and (min-width: 1024px) {
     :root {
         --text-rg: 1rem;
@@ -275,6 +270,7 @@ body {
         width: 40%;
         height: 100%;
         padding-top: 100px;
+        min-height: 600px;
     }
 
     .intro-section .career-path {
