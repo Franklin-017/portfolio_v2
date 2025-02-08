@@ -17,11 +17,11 @@ const experienceDetails = [
 
 const projectDetails = [
     {
-        "projectTitle": "Expense Tracker",
-        "projectImgUrl": "https://uizard.io/static/287441b8aef46af88356501c9c8ca90e/a8e47/c2e8d88f5ac1291dd9109d5a4f76a1ac54d7fae7-1440x835.png",
-        "projectDescription": "Lorem ipsum odor amet, consectetuer adipiscing elit. Nisl montes sapien leo placerat placerat enim parturient vehicula vivamus. Lobortis sollicitudin leo luctus magnis quam montes nunc blandit tincidunt. Sapien eu mus sapien magnis",
-        "techUsed": ["Vue", "ChartJs", "Canvas", "HTML5", "CSS3", "LESS", "JSP", "JavaScript"]
-    }
+        "projectTitle": "Horizon",
+        "projectImgUrl": "./asset/horizon_weather_app.png",
+        "projectDescription": "A weather forecasting app that provides real-time temperature updates, wind speed, sunrise/sunset times, and a 5-day forecast. It features a graphical temperature trend, city search, and a favorites system for quick access. Data is persisted for a seamless user experience.",
+        "techUsed": ["React.js", "JavaScript", "TypeScript", "TailwindCSS", "Rechart", "React Query", "React Router", "Open Weather APIs", "Local Storage", "Navigator API"]
+    },
 ]
 
 function constructExperienceContainer(d) {
